@@ -6,7 +6,7 @@ hero:
   name: "Daniel Wellermann"
   text: "Docs and more"
   # tagline: "Dokumentation, Tutorials und Anleitungen rund um BIM, IT, Linux, Programmierung, Handwerk und 3D-Druck"
-  tagline: "Mein Ort für Dokumentation, Tutorials und Anleitungen von mir für mich und andere"
+  tagline: "Mein Ort für Dokumentation, Tutorials und Anleitungen"
   image:
     src: ich.jpeg
     alt: VitePress

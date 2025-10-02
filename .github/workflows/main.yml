@@ -30,12 +30,13 @@ jobs:
     - name: Build VitePress site
       run: npm run docs:build
 
-    - name: Deploy via lftp (SFTP)
-      run: |
-        sudo apt-get update && sudo apt-get install -y lftp
-        lftp -c "
-        set sftp:auto-confirm yes;
-        set ssl:verify-certificate no;
-        open sftp://${{ secrets.SFTP_USERNAME }}:${{ secrets.SFTP_PASSWORD }}@${{ secrets.SFTP_HOST }};
-        mirror -R --delete config/.vitepress/dist/ ${{ secrets.SFTP_REMOTE_PATH }};
-        quit"
+    - name: Deploy to webspace via SFTP
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+      with:
+        server: ${{ secrets.SFTP_HOST }}
+        username: ${{ secrets.SFTP_USERNAME }}
+        password: ${{ secrets.SFTP_PASSWORD }}
+        port: ${{ secrets.SFTP_PORT }}
+        local_path: './config/.vitepress/dist/*'
+        remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
+        sftp_only: true

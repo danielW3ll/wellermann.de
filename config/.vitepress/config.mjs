@@ -48,7 +48,7 @@ export default defineConfig({
   },
   themeConfig: {
     footer: {
-      message: 'Released under the MIT License.',
+      message: '',
       copyright: '2012-now © Daniel Wellermann'
     },
     lastUpdated: {
