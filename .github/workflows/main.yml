@@ -31,17 +31,12 @@ jobs:
       run: npm run docs:build
 
     - name: Deploy to webspace via SFTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.6
       with:
         server: ${{ secrets.SFTP_HOST }}
         username: ${{ secrets.SFTP_USERNAME }}
         password: ${{ secrets.SFTP_PASSWORD }}
-        protocol: sftp
-        port: ${{ secrets.SFTP_PORT || 22 }}
-        local-dir: config/.vitepress/dist/
-        server-dir: ${{ secrets.SFTP_REMOTE_PATH }}
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-        dry-run: false
+        port: ${{ secrets.SFTP_PORT }}
+        local_path: './config/.vitepress/dist/*'
+        remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
+        sftp_only: true
