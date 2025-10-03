@@ -73,6 +73,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'LXC Setup', link: '/docs/LXC_Setup' },
+            { text: 'Photoprism & Syncthing', link: '/docs/Syncthing_Photoprism' },
 
           ]
         },
