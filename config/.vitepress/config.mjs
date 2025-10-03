@@ -72,6 +72,7 @@ export default defineConfig({
           text: 'Server/Cloud',
           collapsed: false,
           items: [
+            { text: 'Haus IT', link: '/docs/Haus_IT' },
             { text: 'LXC Setup', link: '/docs/LXC_Setup' },
             { text: 'Photoprism & Syncthing', link: '/docs/Syncthing_Photoprism' },
 
@@ -90,7 +91,7 @@ export default defineConfig({
           text: 'Projekte',
 
           items: [
-            { text: 'Coming Soon...', link: '/projects/coming-soon' },
+            { text: 'NUC Server', link: '/projects/NUC_Server' },
 
           ]
         }
