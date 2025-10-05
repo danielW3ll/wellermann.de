@@ -84,6 +84,13 @@ export default defineConfig({
           items: [
             { text: 'WebApp Deploy Script', link: '/docs/WebApp_Deploy_Script' },
           ]
+        },
+        {
+          text: 'Testing',
+          collapsed: false,
+          items: [
+            { text: 'OpenCloud Test #4', link: '/docs/Open_Cloud_Test_4' },
+          ]
         }
       ],
       '/projects/': [
