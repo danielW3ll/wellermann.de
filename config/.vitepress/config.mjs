@@ -91,6 +91,13 @@ export default defineConfig({
           items: [
             { text: 'OpenCloud Test #4', link: '/docs/Open_Cloud_Test_4' },
           ]
+        },
+        {
+          text: 'Programme',
+          collapsed: false,
+          items: [
+            { text: 'zsh', link: '/docs/zsh' },
+          ]
         }
       ],
       '/projects/': [
