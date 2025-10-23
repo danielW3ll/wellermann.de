@@ -7,8 +7,10 @@ lastupdated: true
 ---
 
 ::: tip Status
+***2025-10-23:***
+Test bisher ohne Probleme, Client für Linux funktioniert auf ubuntu 25* einwandfrei.
 **2025-10-05:**
-Test nicht abgeschlossen
+Installation und Grundkonfiguration abgeschlossen, Test läuft.
 :::
 
 # Open Cloud Test 4
@@ -87,3 +89,21 @@ Rufe die Domain im Browser auf: https://cloud.c41.DEINE.DOMAIN
 ***Done***
 
 ![Test Bild](/images/OpenCloud-Test41-1.png)
+
+## OpenCloud Client für Linux
+
+Für den Test wurde der **OpenCloud Client V.2.0.0** als AppImage verwendet. Die Installation erfolgte gemäß der offiziellen OpenCloud-Dokumentation.
+
+### Einrichtung
+
+Die Einrichtung war einfach und problemlos. Der Client verbindet sich zuverlässig mit der OpenCloud-Instanz.
+
+### Hinweis
+
+Die Version 3.* des Clients befindet sich derzeit noch in der Beta-Phase und wurde nicht getestet.
+
+### Screenshot
+
+Hier ein Screenshot der Desktop-Anwendung:
+
+![OpenCloud Client Screenshot](/images/OpenCloud-Test41-2.png)
