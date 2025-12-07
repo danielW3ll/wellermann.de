@@ -10,8 +10,9 @@ Dies ist der Dokumentationsbereich für Dinge, die ich festhalten muss.
 
 ## Aktuelle Artikel
 
+
+- [Wechsel zu Fedora](./Wechsel_zu_Fedora.md) - Mein Erfahrungsbericht über den Wechsel von Ubuntu zu Fedora auf dem Desktop.
 - [Open Cloud Test #4](./Open_Cloud_Test_4.md) - Ein dokumentierter Test der OpenCloud-Plattform in meiner privaten IT-Infrastruktur.
-- [Haus IT](./Haus_IT.md) - Ein direkter Einblick in meine private IT-Infrastruktur – Hardware, Software und Architektur. Effizient und unter meiner Kontrolle.
 
 <!-- Hier werde ich Anleitungen, Tutorials und andere nützliche Informationen zu meinen Themen, die mich interessieren, bereitstellen. -->
 

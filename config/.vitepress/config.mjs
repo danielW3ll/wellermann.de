@@ -69,6 +69,13 @@ export default defineConfig({
     sidebar: {
       '/docs/': [
         {
+          text: 'Allgemein',
+          collapsed: false,
+          items: [
+            { text: 'Wechsel zu Fedora', link: '/docs/Wechsel_zu_Fedora' }
+          ]
+        },
+        {
           text: 'Server/Cloud',
           collapsed: false,
           items: [
