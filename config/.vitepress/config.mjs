@@ -121,7 +121,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/wellermann/' },
-      { icon: 'github', link: 'https://github.com/danielW3ll' },
+      { icon: 'github', link: 'https://github.com/dwellermann' },
       { icon: 'instagram', link: 'https://www.instagram.com/daniel.wellermann/' },
       { icon: 'facebook', link: 'https://www.facebook.com/wellermann.daniel' },
 
