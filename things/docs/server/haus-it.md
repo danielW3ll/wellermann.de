@@ -1,6 +1,11 @@
 ---
 title: Haus IT
 description: Ein direkter Einblick in meine private IT-Infrastruktur – Hardware, Software und Architektur. Effizient und unter meiner Kontrolle.
+tags:
+  - Homelab
+  - Proxmox
+  - Netzwerk
+  - Infrastructure
 layout: doc
 footer: true
 lastupdated: true

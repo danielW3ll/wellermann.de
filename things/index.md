@@ -4,15 +4,18 @@ layout: home
 
 hero:
   name: "Daniel Wellermann"
-  text: "Docs and more"
+  text: "Blog & Docs"
   # tagline: "Dokumentation, Tutorials und Anleitungen rund um BIM, IT, Linux, Programmierung, Handwerk und 3D-Druck"
   tagline: "BIM, IT, LINUX, HANDWERK, 3D-DRUCK ,..."
   image:
     src: ich.jpeg
     alt: VitePress
 features:
+  - title: Blog
+    details: Persönliche Erfahrungen, Gedanken und Geschichten rund um Linux, IT und Technologie
+    link: /blog
   - title: Docs
-    details: Dokumentation, Tutorials und Notizen rund um BIM, IT, Linux, Programmierung, Handwerk und 3D-Druck
+    details: Technische Dokumentation, Anleitungen und Referenzen zu Server-Setup, Development und Tools
     link: /docs
   - title: Projects
     details: Meine Projekte auf GitHub und anderen Plattformen

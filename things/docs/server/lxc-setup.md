@@ -1,6 +1,11 @@
 ---
 title: LXC Setup
 description: Anleitung zur Einrichtung eines LXC Containers in Proxmox
+tags:
+  - LXC
+  - Proxmox
+  - Ubuntu
+  - Container
 layout: doc
 footer: true
 lastupdated: true

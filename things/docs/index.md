@@ -1,25 +1,36 @@
 ---
-title: Dokumentation
-titleTemplate: Alles was ich festhalten muss
-description: Documentation for my projects and things I find interesting
+title: Docs
+description: Technische Dokumentation, Anleitungen und Code-Snippets für Server, Entwicklung und Tools
 layout: doc
+footer: true
 ---
 
-# Dokumentation
-Dies ist der Dokumentationsbereich für Dinge, die ich festhalten muss.
+# Docs
 
-## Aktuelle Artikel
+Technische Dokumentation, How-Tos und Best Practices aus meiner täglichen Arbeit. Von Server-Setups über Deployment-Scripts bis zu nützlichen Shell-Konfigurationen.
 
+## 🖥️ Server & Cloud
 
-- [Wechsel zu Fedora](./Wechsel_zu_Fedora.md) - Mein Erfahrungsbericht über den Wechsel von Ubuntu zu Fedora auf dem Desktop.
-- [Open Cloud Test #4](./Open_Cloud_Test_4.md) - Ein dokumentierter Test der OpenCloud-Plattform in meiner privaten IT-Infrastruktur.
+Anleitungen für Self-Hosting, Virtualisierung und Cloud-Infrastruktur.
 
-<!-- Hier werde ich Anleitungen, Tutorials und andere nützliche Informationen zu meinen Themen, die mich interessieren, bereitstellen. -->
+- **[Haus IT](/docs/server/haus-it)** – Ein Einblick in meine private IT-Infrastruktur mit Proxmox, Ubiquiti und mehr
+- **[LXC Setup](/docs/server/lxc-setup)** – Einrichtung eines LXC Containers in Proxmox mit Ubuntu 24.04 LTS
+- **[Photoprism & Syncthing](/docs/server/syncthing-photoprism)** – Installation und Konfiguration für Foto-Backups und -Verwaltung
+
+## 🚀 Development
+
+Tools und Scripts für effizientere Entwicklungsworkflows.
+
+- **[WebApp Deploy Script](/docs/development/webapp-deploy-script)** – Universelles Bash-Deployment-Script mit lftp für moderne Web-Apps
+
+## 🔧 Snippets & Tools
+
+Nützliche Code-Snippets und Konfigurationen für den Alltag.
+
+- **[zsh Setup](/docs/snippets/zsh)** – Wechsel von bash zu zsh mit Oh My Zsh
 
 ---
 
-::: tip Vorsicht bei "Scripts & Commands"
-Das hier ist meine Doku. Die Schritte/Skripte funktionieren auf *meinem* System. Das ist keine Garantie, dass sie bei dir auch nur ansatzweise das Gleiche tun oder dass es überhaupt der richtige Weg ist. Erst denken, dann Copy & Paste!
-
-Also: Hirn einschalten, bevor du Enter drückst. Wer das nicht kann, sollte vielleicht doch lieber bei Malen nach Zahlen bleiben.
+::: info Tags & Kategorien
+Jede Dokumentation ist mit relevanten Tags versehen. Diese ermöglichen zukünftige Filterfunktionen und bessere Navigation.
 :::

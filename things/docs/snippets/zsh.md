@@ -1,6 +1,11 @@
 ---
 title: Wechsel zu zsh
 description: "Wechsel von bash zu zsh"
+tags:
+  - zsh
+  - Shell
+  - Terminal
+  - Oh My Zsh
 layout: doc
 footer: true
 lastupdated: true

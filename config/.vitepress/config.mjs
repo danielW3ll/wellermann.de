@@ -59,61 +59,52 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      // Use trailing slash and activeMatch so this nav item stays active
-      // for any route under /docs/
+      { text: 'Blog', link: '/blog', activeMatch: '/blog/' },
       { text: 'Docs', link: '/docs', activeMatch: '/docs/' },
-      // Same for projects
       { text: 'Projects', link: '/projects', activeMatch: '/projects/' }
     ],
 
     sidebar: {
+      '/blog/': [
+        {
+          text: 'Blog Posts',
+          collapsed: false,
+          items: [
+            { text: 'Mein Wechsel zu Fedora', link: '/blog/wechsel-zu-fedora' },
+            { text: 'OpenCloud Test #4', link: '/blog/opencloud-test-4' },
+          ]
+        }
+      ],
       '/docs/': [
         {
-          text: 'Allgemein',
+          text: 'Server & Cloud',
           collapsed: false,
           items: [
-            { text: 'Wechsel zu Fedora', link: '/docs/Wechsel_zu_Fedora' }
+            { text: 'Haus IT', link: '/docs/server/haus-it' },
+            { text: 'LXC Setup', link: '/docs/server/lxc-setup' },
+            { text: 'Photoprism & Syncthing', link: '/docs/server/syncthing-photoprism' },
           ]
         },
         {
-          text: 'Server/Cloud',
+          text: 'Development',
           collapsed: false,
           items: [
-            { text: 'Haus IT', link: '/docs/Haus_IT' },
-            { text: 'LXC Setup', link: '/docs/LXC_Setup' },
-            { text: 'Photoprism & Syncthing', link: '/docs/Syncthing_Photoprism' },
-
+            { text: 'WebApp Deploy Script', link: '/docs/development/webapp-deploy-script' },
           ]
         },
         {
-          text: 'Scripting',
+          text: 'Snippets & Tools',
           collapsed: false,
           items: [
-            { text: 'WebApp Deploy Script', link: '/docs/WebApp_Deploy_Script' },
-          ]
-        },
-        {
-          text: 'Testing',
-          collapsed: false,
-          items: [
-            { text: 'OpenCloud Test #4', link: '/docs/Open_Cloud_Test_4' },
-          ]
-        },
-        {
-          text: 'Programme',
-          collapsed: false,
-          items: [
-            { text: 'zsh', link: '/docs/zsh' },
+            { text: 'zsh Setup', link: '/docs/snippets/zsh' },
           ]
         }
       ],
       '/projects/': [
         {
           text: 'Projekte',
-
           items: [
             { text: 'NUC Server', link: '/projects/NUC_Server' },
-
           ]
         }
       ]

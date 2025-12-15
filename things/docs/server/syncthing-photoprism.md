@@ -1,6 +1,11 @@
 ---
 title: Syncthing & Photoprism Setup (nicht Vollständig)
 description: Anleitung zur Installation und Konfiguration von Syncthing und Photoprism auf einem Ubuntu Server
+tags:
+  - Syncthing
+  - Photoprism
+  - Ubuntu
+  - Backup
 layout: doc
 footer: true
 lastupdated: true

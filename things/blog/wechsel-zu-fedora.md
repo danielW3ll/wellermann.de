@@ -1,6 +1,14 @@
 ---
-title: Wechsel zu Fedora
-description: Blog über den Wechsel zu Fedora
+title: Mein Wechsel zu Fedora
+description: Blog über den Wechsel zu Fedora - Die Suche nach der goldenen Mitte zwischen Arch und Ubuntu
+date: 2024-11-15
+category: Linux
+tags: 
+  - Linux
+  - Fedora
+  - Ubuntu
+  - Arch
+  - Desktop
 layout: doc
 footer: true
 lastupdated: true

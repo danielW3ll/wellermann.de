@@ -1,6 +1,14 @@
 ---
 title: "OpenCloud Test #4"
-description: "Mein OpenCloud Test nummer 4 oder Q4 Test"
+description: "Mein OpenCloud Test nummer 4 oder Q4 Test - Deployment und Migration von Nextcloud"
+date: 2024-10-05
+category: Cloud
+tags:
+  - OpenCloud
+  - Docker
+  - Nextcloud
+  - LXC
+  - Traefik
 layout: doc
 footer: true
 lastupdated: true
@@ -23,7 +31,7 @@ Ich deploye ihn auf meinem Produktions‑Proxmox‑Server, da ich eine echte Nex
 ## Vorbereitung
 
 Es wird ein LXC‑Container mit Ubuntu 24.04 LTS erstellt und grundkonfiguriert.
-[Anleitung LXC Setup](./LXC_Setup.md)
+[Anleitung LXC Setup](/guides/server/lxc-setup)
 
 ## OpenCloud‑Ordner im LXC anlegen
 
