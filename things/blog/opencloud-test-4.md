@@ -31,7 +31,7 @@ Ich deploye ihn auf meinem Produktions‑Proxmox‑Server, da ich eine echte Nex
 ## Vorbereitung
 
 Es wird ein LXC‑Container mit Ubuntu 24.04 LTS erstellt und grundkonfiguriert.
-[Anleitung LXC Setup](/guides/server/lxc-setup)
+[Anleitung LXC Setup](/docs/server/lxc-setup)
 
 ## OpenCloud‑Ordner im LXC anlegen
 
