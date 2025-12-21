@@ -11,6 +11,11 @@ Willkommen in meinem Blog! Hier teile ich persönliche Erfahrungen, Überlegunge
 
 ## Aktuelle Beiträge
 
+### [HeatSync PWM Translator — Statusbericht Phase 2](/blog/heastsync-PWM-Post1)
+**20. Dezember 2025** • *Heizung, PWM, Arduino, Prototyp*
+
+---
+
 ### [Mein Wechsel zu Fedora](/blog/wechsel-zu-fedora)
 **15. November 2024** • *Linux, Desktop*
 

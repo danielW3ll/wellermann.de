@@ -400,6 +400,35 @@
 :lang(ru) {
   --vp-code-copy-copied-text-content: 'Скопировано';
 }
+
+/* Tag styles */
+.tag-badges,
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-size: 0.9em;
+  text-decoration: none;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.tag-badge:hover {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+
+.tags-index .tag-badge {
+  cursor: pointer;
+}
 :lang(zh) {
   --vp-code-copy-copied-text-content: '已复制';
 }

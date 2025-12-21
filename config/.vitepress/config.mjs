@@ -70,6 +70,7 @@ export default defineConfig({
           text: 'Blog Posts',
           collapsed: false,
           items: [
+            { text: 'HeatSync PWM — Statusbericht Phase 2', link: '/blog/heastsync-PWM-Post1' },
             { text: 'Mein Wechsel zu Fedora', link: '/blog/wechsel-zu-fedora' },
             { text: 'OpenCloud Test #4', link: '/blog/opencloud-test-4' },
           ]
